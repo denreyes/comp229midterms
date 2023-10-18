@@ -13,7 +13,7 @@ root.render(
       <h2>Add Product</h2>
       <AddProduct />
       
-      <h2>Sign Up User</h2>
+      <h2 className='signUpText'>Sign Up User</h2>
       <SignUpUser />
     </div>
   </React.StrictMode>

@@ -5,9 +5,39 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  margin: 40px;
+  width: 40%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 50px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  float: right;
+  margin-right: -20px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.signUpText {
+  margin-top: 80px;
 }
